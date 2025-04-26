@@ -1,20 +1,20 @@
 Briefly summarize your client, Artemis Financial, and its software requirements. Who was the client? What issue did the company want you to address?
-
+Artemis Financial wants to modernize its operations in ensuring its assets are protected from would be malicious actors. Artemis Financial is a company that develops individualized financial plans to its customers; these plans can include retirement, savings, insurance and investments.  Since  the company provides financial plans and advice to its customers, personal information such as taxes, assets, PII and other sensitive information could be contained therein so ensuring the security of the application is paramount.
 
 What did you do well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall well-being?
-
+When locating the clients software security vulnerabilities, we worked to create a mitigation plan and implement secure code to ensure that the clients needs were met.  By beggining a project with a security-first mindset, we are able to ensure that our client receives the most secure application possible while retaining the necessary functionality.  Secure coding is especially important to Artemis Financial as they are dealing with peoples PII and financial records; not only will secure coding help bolster their clients trust in the company and prevent malicious actors from gaining a foothold, but they will also be compliant with gonvernment regulations regarding PII and financial records.
 
 Which part of the vulnerability assessment was challenging or helpful to you?
-
+Working through each aspect week by week was helpful in gaining understanding.  My personal challenge was getting Eclipse to work properly on my local machine.  It would have been much easier to use the virtual lab.. but here we are.  in the end i was able to figure it out though, but it was hours and HOURS of time simply trying to get started.
 
 How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
-
+We increased security layers by implementing Cryptography, error handling, input validation and using a strong foundation of codw quality to ensure security measures were met.  In the future, using the MAVEN vulerability plug in tester would be a great way to gauge potential vulerabilities. I really enjoyed being able to implement the tool and go through the report to see how much depth and deatil is included.
 
 How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
-
+Using the SHA-256 algorithm cipher we were able to generate a certificate and verify the hash value to ensure data integrity.  After refactoring the code, we are able to compile and run the program to host a server and connect to verify the hash value. 
 
 What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
-
+I believe that all that Was performed during the length of this course will help me in the future.  The ability to integrate Maven dependency tests, SHA-256 certificates and check hash values may certainly be elementary in terms of professional software security, but it is fascinating to learn, implement and see these tools in action.  I am very excited to continue working and learning towards becoming a software security professional.
 
 Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
-
+While i have never personally worked in the infosec space, I believe that most of the aspects from Project 2 will be helpful in demonstrating understanding.  being able to show evidence of creating a self-signed signature via SHA-256 implementation as well as verifying the checksum to ensure data integrity would be foundational evidence for any software security professional.
